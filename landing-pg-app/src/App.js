@@ -114,8 +114,11 @@ function FamiologyHeader(){
       </div>
       <div class="col-sm-2">
           <div class="btn-group btn-group-md">
-              <Button  variant="light">Subscribe</Button>
-              <Button onClick={handleShow} variant="light">Sign-in</Button>
+             <span class="display-5">
+              <Button variant="dark" size="lg" active>Subscribe</Button>{'  '}
+              <Button onClick={handleShow} variant="light" size="lg" active>Sign-in</Button>
+            </span>
+              
               
           </div>
       </div>
